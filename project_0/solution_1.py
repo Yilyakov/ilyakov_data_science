@@ -4,8 +4,8 @@ import numpy as np
 def game_core(number, step=10):
     '''Увеличиваем predict на значение step=10. Если
     значение predict становится > загаданного number, то уменьшаем
-    predict на единицу, пока predict не станет number. Функция возвращает число попыток'''
-    
+    predict на единицу, пока predict не станет number. Функция возвращает число попыток
+    '''
     count = 0
     predict = 0
     while number != predict:
